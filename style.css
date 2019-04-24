@@ -1,4 +1,8 @@
-body {
-    background-color: aquamarine
+p::before {
+    content: "OMG WTF THIS REALLY WORKS? >> ";
+}
+
+p::after {
+    content: " << yes, yes it does!";
 }
 
