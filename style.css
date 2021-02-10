@@ -1,7 +1,26 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
 .page-wrapper {
     display: flex;
-    padding: 1rem 10vw;
+    padding: 1rem 5vw;
 }
+
+.main {
+    padding: 0 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.design-selection {
+    min-width: 15vw;
+}
+
 
 @media (max-width: 800px) {
     .page-wrapper {
