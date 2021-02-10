@@ -1,8 +1,10 @@
-p::before {
-    content: "OMG WTF THIS REALLY WORKS? >> ";
+.page-wrapper {
+    display: flex;
+    padding: 1rem 10vw;
 }
 
-p::after {
-    content: " << yes, yes it does!";
+@media (max-width: 800px) {
+    .page-wrapper {
+        display: block;
+    }
 }
-
